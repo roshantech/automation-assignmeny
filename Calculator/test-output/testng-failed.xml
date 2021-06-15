@@ -5,7 +5,10 @@
     <classes>
       <class name="calculator">
         <methods>
+          <include name="test2"/>
           <include name="Teardown"/>
+          <include name="test"/>
+          <include name="test0"/>
           <include name="Setup"/>
           <include name="test1"/>
         </methods>

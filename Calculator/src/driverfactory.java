@@ -18,7 +18,7 @@ public class driverfactory {
 				
 			}
 			else if(drv.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\codewring\\eclipse-workspace\\automation testing\\driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "..\\driver\\chromedriver.exe");
 				System.out.println("Using Chrome");
 
 				return  new ChromeDriver();
